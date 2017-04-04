@@ -6,7 +6,7 @@
 
 > This is the draft for describing in detail, the technology stack used in Telus Digital
 
-> **Note**: This is a work in progress, you are welcome to contribute and suggest changes, please follow the [contribution guidelines][.github/CONTRIBUTING.md]
+> **Note**: This is a work in progress, you are welcome to contribute and suggest changes, please follow the [contribution guidelines](.github/CONTRIBUTING.md)
 
 ## Application Layer
 
