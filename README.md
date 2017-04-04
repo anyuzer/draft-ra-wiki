@@ -10,7 +10,16 @@
 
 ## Application Layer
 
+- Node.js & NPM
+- React Components
+- Isomorphic Design
+- BFF Layer
+
 ## API Platform
+
+- RESTful Design
+- Authentication Proxy
+- Documentation Format
 
 ## Testing Practice
 
