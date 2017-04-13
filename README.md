@@ -16,8 +16,9 @@ A *thin* and simple format documentation for technical resources, tools, platfor
 
 A Github repository, with Markdown articles as content, (using the repository itself, rather than the "Github Wikis" Feature, this ensures:
 
-- easy version tracking, and usage of github git gui features (blame, history, branches, diff, etc ...)
-- 
+- version tracking, and usage of github git gui features (blame, history, branches, diff, etc ...)
+- publish into a static website using Github Pages
+- leverage branch locking and other Github features only available in content repos
 
 The format should loosely follow the following template:
 
