@@ -64,7 +64,7 @@ _TBD_
   - [Changelog](development/github-releases.md)
   - [Releases](development/github-releases.md)
 - [Isomorphic Design](development/isomorphic.md)
-- [BFF Layer](development/bff.md)
+- [BFF](development/bff.md) _(Backend-for-frontend)_
 
 ##### Languages & Frameworks
 
@@ -94,6 +94,7 @@ _TBD_
 
 #### API Platform
 
+- [Overview](api/README.md)
 - [RESTful Design](api/restful.md)
 - [Authentication Proxy](api/proxy.md)
 - [Documentation Format](api/documentation.md)
