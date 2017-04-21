@@ -6,11 +6,74 @@
 
 > **Note**: This is a work in progress, you are welcome to contribute and suggest changes, please follow the [contribution guidelines](.github/CONTRIBUTING.md)
 
-### Why
+## Why
 
 For new and existing team members, a single place where all the technical knowledge and platform specifications can be documented, tracked and debated.
 
-### What
+## What
+
+The following sections and placeholder articles are the suggested starting point, more to be added, and updated throughout the drafting period.
+
+### Design 
+
+_TBD_
+
+### Development
+
+#### Concepts & Architecture
+
+- [Versioning](development/versioning.md)
+  - [Changelog](development/github-releases.md)
+  - [Releases](development/github-releases.md)
+- [Isomorphic Design](development/isomorphic.md)
+- [BFF](development/bff.md) _(Backend-for-frontend)_
+
+#### Languages & Frameworks
+
+- [SCSS](development/css.md)
+  - [SCSS](development/scss.md)
+
+- [JavaScript](development/javascript.md)
+  - [Transpiling](development/transpiling.md)
+    - [ES6 / ES2015](development/transpiling/es2015.md)
+    - [ES2016](development/transpiling/es2016.md)
+    - [ES2017](development/transpiling/es2016.md)
+  - [React](development/react.md)
+  - [Node.js](development/node.md)
+
+##### Tooling & Libraries
+
+- [NPM](development/npm.md)
+- [Yarn](development/yarn.md)
+- [Webpack](development/webpack.md)
+- [Enzyme](development/enzyme.md)
+- [Jest](development/jest.md)
+
+#### Syntax & Style
+
+- [ESLint](development/eslint.md)
+- [stylelint](development/stylelint.md)
+
+### API Platform
+
+- [Overview](api/README.md)
+- [RESTful Design](api/restful.md)
+- [Authentication Proxy](api/proxy.md)
+- [Documentation Format](api/documentation.md)
+
+### Testing Practice
+
+_TBD_
+
+### Delivery
+
+_TBD_
+
+### Analytics
+
+_TBD_
+
+## How
 
 A *thin* and simple format documentation for technical resources, tools, platforms and decisions. Members can quickly and easily get context on "Why, What & How" for every part of our platform
 
@@ -25,15 +88,15 @@ The format should loosely follow the following template:
 ```
 # Subject Title 
 
-### Why
+## Why
 
 provide background information, problem description, challanges and/or goals
 
-### What
+## What
 
 The subject details, describe the tool / technology in detail, prefer linking to external sources if a 3rd party
 
-### How
+## How
 
 The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
 
@@ -45,34 +108,4 @@ The **TELUS Digital context** of how we're using the described subject, provide 
 
 - [[link]] to internal references, and other wikis 
 - [[link]] to external references, documentation, product manuals and documentations
-
 ```
-
-### How
-
-The following sections and placeholder articles are the suggested starting point, more to be added, and updated throughout the drafting period.
-
-#### Application Layer
-
-- [Node.js & NPM](applications/node.md)
-- [React Components](applications/react.md)
-- [Isomorphic Design](applications/isomorphic.md)
-- [BFF Layer](applications/bff.md)
-
-#### API Platform
-
-- [RESTful Design](api/restful.md)
-- [Authentication Proxy](api/proxy.md)
-- [Documentation Format](api/documentation.md)
-
-#### Testing Practice
-
-_TBD_
-
-## Delivery
-
-_TBD_
-
-## Analytics
-
-_TBD_
