@@ -52,12 +52,45 @@ The **TELUS Digital context** of how we're using the described subject, provide 
 
 The following sections and placeholder articles are the suggested starting point, more to be added, and updated throughout the drafting period.
 
-#### Application Layer
+#### Design 
 
-- [Node.js & NPM](applications/node.md)
-- [React Components](applications/react.md)
-- [Isomorphic Design](applications/isomorphic.md)
-- [BFF Layer](applications/bff.md)
+_TBD_
+
+#### Development
+
+##### Concepts & Architecture
+
+- [Versioning](development/versioning.md)
+  - [Changelog](development/github-releases.md)
+  - [Releases](development/github-releases.md)
+- [Isomorphic Design](development/isomorphic.md)
+- [BFF Layer](development/bff.md)
+
+##### Languages & Frameworks
+
+- [SCSS](development/css.md)
+  - [SCSS](development/scss.md)
+
+- [JavaScript](development/javascript.md)
+  - [Transpiling](development/transpiling.md)
+    - [ES6 / ES2015](development/transpiling/es2015.md)
+    - [ES2016](development/transpiling/es2016.md)
+    - [ES2017](development/transpiling/es2016.md)
+  - [React](development/react.md)
+  - [Node.js](development/node.md)
+
+###### Tooling & Libraries
+
+- [NPM](development/npm.md)
+- [Yarn](development/yarn.md)
+- [Webpack](development/webpack.md)
+- [Enzyme](development/enzyme.md)
+- [Jest](development/jest.md)
+
+##### Syntax & Style
+
+- [ESLint](development/eslint.md)
+- [stylelint](development/stylelint.md)
 
 #### API Platform
 
