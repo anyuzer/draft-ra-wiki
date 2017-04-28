@@ -1,8 +1,4 @@
-<center>
-<img src="https://cloud.githubusercontent.com/assets/183195/24158420/aae30ce6-0e32-11e7-9203-451b83c7a775.jpg"/>
-</center>
-
-# Reference Architecture Wiki
+<h1>Reference Architecture Wiki <img align="right" height="50" src="logo.png"/></h1>
 
 > **Note**: This is a work in progress, you are welcome to contribute and suggest changes, please follow the [contribution guidelines](.github/CONTRIBUTING.md)
 
