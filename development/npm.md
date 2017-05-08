@@ -1,4 +1,4 @@
-# Publishing NPM package
+# Publishing NPM Packages
 
 ## Why
 We need to be able to share code in different applications and version the shared code. Distributing these them as NPM packages is the approach we agreed on.
