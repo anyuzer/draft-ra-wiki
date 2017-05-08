@@ -1,7 +1,7 @@
 # Publishing NPM package
 
 ## Why
-We need to be able to share code in different applications and version the shared code. Distributing these them as NPM packages is the approach we agreed on. However, we currently don't have a pipeline to publish our npm packages. Developers/Package maintainers are publishing packages manually. 
+We need to be able to share code in different applications and version the shared code. Distributing these them as NPM packages is the approach we agreed on.
 
 ## What
 A package is just a directory with one or more files in it, that also has a file called "package.json" with some metadata about this package. A typical application, such as a website, will depend on dozens or hundreds of packages. These packages are often small. The general idea is that you create a small building block which solves one problem and solves it well. This makes it possible for you to compose larger, custom solutions out of these small, shared building blocks.
@@ -16,3 +16,17 @@ A package is just a directory with one or more files in it, that also has a file
   - `npm version (major | minor | patch)`
   - `git push && git push --tags`
   - `npm publish`
+
+
+### Recommended file structure
+```bash
+myPackage/
+|-- src/
+|-- lib/
+|-- .eslintrc
+|-- .gitignore
+|-- .npmignore
+|-- .babelrc
+|-- package.json
+|-- README.md
+```
