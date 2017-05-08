@@ -16,6 +16,9 @@ _TBD_
 
 ### Development
 
+#### Process
+- [Git Practices](process/git-practices.md)
+
 #### Concepts & Architecture
 
 - [Versioning](development/versioning.md)
