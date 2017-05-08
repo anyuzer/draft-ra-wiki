@@ -7,7 +7,7 @@ We need to be able to share code in different applications and version the share
 A package is just a directory with one or more files in it, that also has a file called "package.json" with some metadata about this package. A typical application, such as a website, will depend on dozens or hundreds of packages. These packages are often small. The general idea is that you create a small building block which solves one problem and solves it well. This makes it possible for you to compose larger, custom solutions out of these small, shared building blocks.
 
 ## How
-1. Create the directory with package.json
+1. Create the directory with package.json and run `npm shrinkwrap` after installing packages
 2. If you are transpiling code, transpile into a lib folder.
 3. add .gitignore to ignore the lib folder
 4. add empty .npmignore so that lib can be part of the package distribution.
@@ -28,5 +28,6 @@ myPackage/
 |-- .npmignore
 |-- .babelrc
 |-- package.json
+|-- npm-shrinkwrap.json
 |-- README.md
 ```
