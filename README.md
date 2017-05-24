@@ -17,7 +17,8 @@ _TBD_
 ### Development
 
 #### Process
-- [Git Practices](process/git-practices.md)
+- [Project Template](process/project-template.md)
+- [Contribution Model](process/contribution-model.md)
 
 #### Concepts & Architecture
 
