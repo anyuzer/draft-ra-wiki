@@ -50,6 +50,9 @@ The following is a basic example
 
 > (node, express.js, psql, etc ...)
 
+### Frameworks/Core 3rd Party Dependencies
+> (react, redux, aws-sdk, etc)
+
 ### API Docs (if any)
 
 > endpoints, response codes, etc ... 
@@ -57,12 +60,22 @@ The following is a basic example
 
 ## How (Instructions)
 
-> installation and running instructions
-> ie. run ./setup.sh, then npm install, then npm test, then to execute npm run dev
+### Installation
+> setup and installation instructions
+
+### Tests
+> How do you run tests. These should pass after a developer has performed setup/installation properly
+
+### Build/Run
+> How do you build (if required) and run. Runtime flags, etc
+
+### Scripts/Tools
+> What other scripts are used for development? ie. linting, lint-fix, snyk, etc
 
 ## Who
 
 > Outcome team name (link to Confluence Team Page)
+> Project leads/maintainers (who somebody should ask if they want to get involved, are going to be making a PR, etc)
 ```
 
 
