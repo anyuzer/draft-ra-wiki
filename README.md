@@ -16,6 +16,10 @@ _TBD_
 
 ### Development
 
+#### Process
+- [Project Template](process/project-template.md)
+- [Contribution Model](process/contribution-model.md)
+
 #### Concepts & Architecture
 
 - [Versioning](development/versioning.md)
