@@ -6,7 +6,7 @@ We don't want to commit some things
 
 ## What
 
-Generally speaking, we don't want to commit any IDE metadata or operating system artifacts. Also we need to ignore installed 3rd party dependencies.
+Generally speaking, we don't want to commit any IDE metadata or operating system artifacts. Also we need to ignore installed 3rd party dependencies, and any generated data (e.g. unit test reports, code coverage, etc).
 
 Most importantly, we don't want to commit any secrets!
 
@@ -32,10 +32,18 @@ vendor       // php/ruby
 .gradle      // java
 ```
 
-Secrets (e.g. if secrets put under /certs or /secrets):
+Generated data:
 ```
-certs
-secrets
+dist          // compiled application
+coverage      // code coverage report
+npm-debug.log // npm error output
+```
+
+Secrets
+```
+.npmrc  // node read token
+certs   // certificates
+secrets // general secrets
 ```
 
 ## Who
