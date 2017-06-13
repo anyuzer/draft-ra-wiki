@@ -45,6 +45,7 @@ _TBD_
 - [Webpack](development/webpack.md)
 - [Enzyme](development/enzyme.md)
 - [Jest](development/jest.md)
+- [NewRelic](development/newrelic.md)
 
 #### Syntax & Style
 
@@ -73,6 +74,7 @@ _TBD_
 - [OpenShift](delivery/openshift.md)
 - [Jenkins](delivery/jenkins.md)
 - [Secrets](delivery/secrets.md)
+- [Inbound Proxies](delivery/inbound-proxies.md)
 - [Starter Kits](delivery/starter-kits.md)
 - [Shippy](delivery/shippy.md)
 
