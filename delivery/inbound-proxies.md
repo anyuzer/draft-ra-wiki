@@ -46,5 +46,5 @@ To have traffic from http://www.telus.com/en/bc/foo/bar proxied to your applicat
 
 ## References
 
-- [Preproduction](ttps://github.com/telusdigital/inbound.telus-gateway-staging-config)
+- [Preproduction](https://github.com/telusdigital/inbound.telus-gateway-staging-config)
 - [Production](https://github.com/telusdigital/inbound.telus-gateway-production-config)
