@@ -23,6 +23,7 @@ _TBD_
   - [Releases](development/github-releases.md)
 - [Isomorphic Design](development/isomorphic.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
+- [Logging](development/logging.md)
 
 #### Languages & Frameworks
 
@@ -47,6 +48,8 @@ _TBD_
 
 #### Syntax & Style
 
+- [Code formatting](development/code-formatting.md)
+- [Gitignore](development/gitignore.md)
 - [ESLint](development/eslint.md)
 - [stylelint](development/stylelint.md)
 
@@ -64,6 +67,14 @@ _TBD_
 ### Delivery
 
 - [Continuous Integration](delivery/continuous-integration.md)
+- [Continuous Delivery](delivery/continuous-delivery.md)
+- [Docker](delivery/docker.md)
+- [Kubernetes](delivery/kubernetes.md)
+- [OpenShift](delivery/openshift.md)
+- [Jenkins](delivery/jenkins.md)
+- [Secrets](delivery/secrets.md)
+- [Starter Kits](delivery/starter-kits.md)
+- [Shippy](delivery/shippy.md)
 
 ### Analytics
 
