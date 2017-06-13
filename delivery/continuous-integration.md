@@ -14,9 +14,17 @@ On our previous PHP My-Account codebase, it would take a week to manually merge 
 
 ## How
 
+### Story sizing
+
+It is important that user stories are kept small. Large tasks are broken down into smaller ones, until they can be accomplished within a day.
+
 ### Trunk based development
 
 For most changes, we now use Trunk Based Development. This means most changes are committed directly to master, without first making a branch. Sometimes branches are unavoidable, e.g. when doing large refactoring, etc., but these should be as short-lived as possible.
+
+### Feature toggles
+
+For stories that take longer than a day, consider using a "feature toggle" (in its most basic form, a boolean configuration plus an if/else block), where your feature is disabled in production upon deployment. You can leave it enabled in development and staging environments, for integration testing. This still ensures that code is integrated continuously, so there are less, if any, merge conflicts.
 
 ### Test driven development
 
