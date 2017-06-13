@@ -77,11 +77,9 @@ A DeploymentConfig is _roughly_ analogous to a Kubernetes Deployment (in fact, i
 
 Many features in OpenShift are, in fact, backports: Mimicking new functionality in old versions of Docker/Kubernetes under the hood. Something, something "enterprise"... `¯\_(ツ)_/¯`
 
-### Processes, Teams, Escalations
+### Cluster upgrade process
 
-#### OpenShift Upgrade Process
-
-##### Standard Upgrade Process
+#### Standard Upgrade Process
 
 Red Hat will communicate with TELUS digital via email (DL List here) with a possible list of times to perform an upgrade to our *sandbox* cluster first.  This window should be:
 - In off hours (after 8PM PST and before 5AM EST)
@@ -97,7 +95,7 @@ Our Sandbox cluster will be upgraded first as it has no production applications 
 
 Red Hat will perform their upgrade at the scheduled time, TDIM will monitor for any unexpected issues, should any unexpected issues occur TELUS digital will call Red Hat to resolve.  Once upgrade is complete TELUS digital will verify all applications have come back up otherwise engage the Delivery team via (XYZ).
 
-##### Emergency / Critical Patching
+#### Emergency / Critical Patching
 
 Occasionally Red Hat may need to deploy a critical release to ensure our environment is safe from high profile vulnerabilities.  When this happens:
 - Red Hat will patch both *sandbox* and *production* clusters notification should be provided at least 1 hour in advance
@@ -154,15 +152,7 @@ The status page provided by Red Hat can be used to provide email or SMS alerts a
 
 #### Gaining Access
 
-A ticket can be created via the Red Hat Customer Support Portal to gain access or remove access as required.  Link to RHCSP is below in the links section or [here](https://access.redhat.com/support/cases/#/case/list)
-
-### Links & URLs
-
-- [OpenShift Sandbox Console](http://console.telusdigital.openshift.com) 
-- [OpenShift Production Console](http://console.telusdigital.openshift.com)
-- [Red Hat Customer Support Portal](https://access.redhat.com/support/cases/#/case/list)
-- [Openshift Status Dashboard](https://status-dedicated.openshift.com/)
-- [OpenShift SLA Table](https://access.redhat.com/support/offerings/production/sla) Note: We have PREMIUM support
+A ticket can be created via the [Red Hat Customer Support Portal](https://access.redhat.com/support/cases/#/case/list) to gain access or remove access as required.
 
 ## Who
 
@@ -172,3 +162,8 @@ A ticket can be created via the Red Hat Customer Support Portal to gain access o
 
 - [OpenShift docs](https://docs.openshift.com/container-platform/3.5/welcome/index.html)
 - [OpenShift vs Kubernetes](https://www.slideshare.net/SamuelTerburg/openshift-enterprise-31-vs-kubernetes)
+- [OpenShift Sandbox Console](http://console.telusdigital.openshift.com) 
+- [OpenShift Production Console](http://console.telusdigital.openshift.com)
+- [Red Hat Customer Support Portal](https://access.redhat.com/support/cases/#/case/list)
+- [Openshift Status Dashboard](https://status-dedicated.openshift.com/)
+- [OpenShift SLA Table](https://access.redhat.com/support/offerings/production/sla) Note: We have PREMIUM support
