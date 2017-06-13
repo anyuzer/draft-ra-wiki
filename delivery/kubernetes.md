@@ -24,7 +24,7 @@ A Kubernetes namespace is a virtual boundary. Within the namespace, we get a pri
 
 A Kubernetes "deployment" is a declarative YAML configuration, which allows you to deploy an application of a given name, to a given namespace.
 
-The deployment file defines a declarative state of an application in your Kubernetes cloud, and how that state is composed. It defines how many replicas to deploy, and anything that we would define in the `docker-compose.yml` file would be defined in here as well (environment variables, volumes, etc). Kubernetes then automates the work in deploying and scaling your application. It also saves the previous deployment in its history, in order to facilitate rollbacks.
+The deployment file defines a declarative state of an application in your Kubernetes cloud, and how that state is composed. It defines how many replicas to deploy, and anything that we would define in the `docker-compose.yml` file would be defined in here as well (environment variables, volumes, etc). Your deployment must also define the resources that your application requires (CPU/RAM), as well as health checks (liveness/readiness probes) which ensure your app is running. Kubernetes then automates the work in deploying and scaling your application. It also saves the previous deployment in its history, in order to facilitate rollbacks.
 
 ### Pods
 
