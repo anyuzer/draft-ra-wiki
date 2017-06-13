@@ -154,6 +154,25 @@ The status page provided by Red Hat can be used to provide email or SMS alerts a
 
 A ticket can be created via the [Red Hat Customer Support Portal](https://access.redhat.com/support/cases/#/case/list) to gain access or remove access as required.
 
+### Minishift
+
+To test OpenShift locally, we recommend using [minishift](https://docs.openshift.org/latest/minishift/getting-started/quickstart.html).
+
+On Mac we can install minishift with brew:
+```
+$ brew update
+$ brew install docker-machine-driver-xhyve
+$ sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+$ sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+$ brew cask install minishift
+$ minishift config set memory 8192
+$ minishift start
+``` 
+
+On other platforms: [see instructions](https://docs.openshift.org/latest/minishift/getting-started/installing.html#installing-instructions)
+
+Once minishift is running, you can log in, create projects, and install your Jenkins and applications normally.
+
 ## Who
 
 @delivery
@@ -167,3 +186,4 @@ A ticket can be created via the [Red Hat Customer Support Portal](https://access
 - [Red Hat Customer Support Portal](https://access.redhat.com/support/cases/#/case/list)
 - [Openshift Status Dashboard](https://status-dedicated.openshift.com/)
 - [OpenShift SLA Table](https://access.redhat.com/support/offerings/production/sla) Note: We have PREMIUM support
+- [Minishift](https://github.com/minishift/minishift)
