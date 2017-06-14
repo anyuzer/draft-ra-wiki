@@ -15,7 +15,7 @@ For reference-architecture apps, we use [Winston](https://github.com/winstonjs/w
 - **Error**: This should be used for all page-breaking errors. If an unrecoverable response-breaking exception is thrown, odds are you should log an error message as well.
 - **Warn**: This is used for logging when an error has occurred, from which we can recover gracefully. Usually you would do this for a small piece of information, which the page can be displayed without, but should be working regardless.
 - **Info**: This code is for logging any relevant information for production. This would be things like the duration of a REST call, if the cache hits or misses, or flow changes (e.g. redirecting to another non-error page).
-- **Debug**: This is a non-error code for development and debugging only, and will normally be hidden on production (although it can be enabled temporarily in order to track down a difficult issue). At debug level, log things like REST/curl responses (being sure to avoid logging Personally Identifiable Information - PII), database calls & responses, cache responses and other useful information, from which the page is derived.
+- **Debug**: This is a non-error code for development and debugging only, and will normally be hidden on production (although it can be enabled temporarily in order to track down a difficult issue). At debug level, log things like REST/curl responses (being sure to avoid logging Personal Information), database calls & responses, cache responses and other useful information, from which the page is derived.
 
 #### Exception Handling
 - Exceptions may be thrown throughout applications, especially when calling REST services or using libraries.
@@ -24,9 +24,9 @@ For reference-architecture apps, we use [Winston](https://github.com/winstonjs/w
   - If we can still display the requested page, despite an exception, log a warn and move on
   - If the exception is non-trivial and breaks the page, log an error
 
-### PII: Personally Identifiable Information
+### Personal Information
 
-We cannot log PII. Any BANs, first/last names, or other personal information should not be logged. If it is necessary, e.g. to support a fraud investigation, you would have to make a privacy assessment with the "Data and Trust" office to change the logging approach.
+We cannot log personal information. Any BANs, first/last names, or other personal information should not be logged. If it is necessary, e.g. to support a fraud investigation, you would have to make a privacy assessment with the "Data and Trust" office to change the logging approach.
 
 ### Outputting logs
 
