@@ -26,6 +26,7 @@ _TBD_
 - [BFF](development/bff.md) _(Backend-for-frontend)_
 - [Logging](development/logging.md)
 - [Caching](development/caching.md)
+- [Databases](development/databases.md)
 
 #### Languages & Frameworks
 
