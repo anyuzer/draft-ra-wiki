@@ -24,9 +24,6 @@ _TBD_
   - [Releases](development/github-releases.md)
 - [Isomorphic Design](development/isomorphic.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
-- [Logging](development/logging.md)
-- [Caching](development/caching.md)
-- [Databases](development/databases.md)
 
 #### Languages & Frameworks
 
@@ -49,6 +46,9 @@ _TBD_
 - [Enzyme](development/enzyme.md)
 - [Jest](development/jest.md)
 - [NewRelic](development/newrelic.md)
+- [Logging](development/logging.md)
+- [Caching](development/caching.md)
+- [Databases](development/databases.md)
 
 #### Syntax & Style
 
