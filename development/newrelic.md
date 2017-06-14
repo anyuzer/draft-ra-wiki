@@ -12,7 +12,7 @@ We use New Relic as a monitoring suite, to test the health of our applications, 
 
 ## How
 
-Our [Starter Kits](../delivery/starter-kits.md) ship with New Relic monitoring enabled by default. An agent runs on our Node.js applications, which sends data to their API about the performance and health of our applications.
+Our [Starter Kits](starter-kits.md) ship with New Relic monitoring enabled by default. An agent runs on our Node.js applications, which sends data to their API about the performance and health of our applications.
 
 We can also write synthetic scripts that continuously probe our applications, to automate repeatable functional testing, end to end.
 

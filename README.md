@@ -18,6 +18,7 @@ _TBD_
 
 #### Concepts & Architecture
 
+- [Starter Kits](development/starter-kits.md)
 - [Versioning](development/versioning.md)
   - [Changelog](development/github-releases.md)
   - [Releases](development/github-releases.md)
@@ -75,7 +76,6 @@ _TBD_
 - [Jenkins](delivery/jenkins.md)
 - [Secrets](delivery/secrets.md)
 - [Inbound Proxies](delivery/inbound-proxies.md)
-- [Starter Kits](delivery/starter-kits.md)
 - [Shippy](delivery/shippy.md)
 
 ### Analytics
