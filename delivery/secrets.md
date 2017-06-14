@@ -24,7 +24,7 @@ We currently use Ansible Vault, a secret management tool built into Ansible, whi
 
 #### Better
 
-HashiCorp Vault is a much better tool than Ansible Vault. It uses Consul as a high-availability backing store, where we have a centralized single-source-of-truth for all of our secrets, for all of our applications. With a single source, it is easier to rotate keys across the whole organization all at once. Vault also offers an audit log that shows who/what is using the certificates, and you can stream this log into machine learning algorithms to find malicious patterns.
+HashiCorp Vault is a much better tool than Ansible Vault. Our implementation uses HashiCorp Consul as a high-availability backing store, where we have a centralized single-source-of-truth for all of our secrets, for all of our applications. With a single source, it is easier to rotate keys across the whole organization all at once. Vault also offers an audit log that shows who/what is using the certificates, and you can stream this log into machine learning algorithms to find malicious patterns.
 
 Secrets can be nested in a tree, and users/groups can be given access to specific branches. So only developers of a specific application have access to their specific secrets. Access can be revoked as well. Vault also offers password generators for specific services, so that it can create short-lived/ephemeral access tokens that are only used for a single request, or several minutes.
 
