@@ -22,15 +22,15 @@ _TBD_
 - [Versioning](development/versioning.md)
   - [Changelog](development/github-releases.md)
   - [Releases](development/github-releases.md)
-- [Isomorphic Design](development/isomorphic.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
-
+ 
 #### Languages & Frameworks
 
 - [SCSS](development/css.md)
   - [SCSS](development/scss.md)
 
 - [JavaScript](development/javascript.md)
+  - [Isomorphic / Universal](development/isomorphic.md)
   - [Transpiling](development/transpiling.md)
     - [ES6 / ES2015](development/transpiling/es2015.md)
     - [ES2016](development/transpiling/es2016.md)
