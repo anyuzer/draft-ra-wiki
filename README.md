@@ -30,13 +30,15 @@ _TBD_
   - [SCSS](development/scss.md)
 
 - [JavaScript](development/javascript.md)
+  - [Node.js](development/node.md)
   - [Isomorphic / Universal](development/isomorphic.md)
   - [Transpiling](development/transpiling.md)
     - [ES6 / ES2015](development/transpiling/es2015.md)
     - [ES2016](development/transpiling/es2016.md)
     - [ES2017](development/transpiling/es2016.md)
+  - [Express](development/express.md)
   - [React](development/react.md)
-  - [Node.js](development/node.md)
+  - [Redux](development/redux.md)
 
 ##### Tooling & Libraries
 
