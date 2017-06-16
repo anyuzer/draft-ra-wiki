@@ -2,7 +2,7 @@
 
 ## Why
 
-TELUS digital does not fully control www.telus.com domain.  www.telus.com currently resolves to an F5 load balancer appliance that is owned by BTO.  We have specific context [paths][f5-www.telus.com] we route to inbound proxies that TELUS digital maintains.
+TELUS digital does not fully control www.telus.com domain.  www.telus.com currently resolves to an F5 load balancer appliance that is owned by BTO.  We have specific context [paths][f5-www.telus.com] we route to [inbound proxies](../delivery/inbound-proxies/.md) that TELUS digital maintains.
 
 We've been routing various paths in our inbound proxies to our applications deployed on AWS / OpenShift without any guidelines and conventions.
 
@@ -51,6 +51,7 @@ Any teams deploying to www.telus.com:
 
 - [F5 Context Paths to AWS for www.telus.com][f5-www.telus.com]
 - [RFC 6570][rfc-6570]
+- [Inbound proxies](../delivery/inbound-proxies/.md)
 - [inbound.telus-gateway-staging-config][telus-gateway-staging-config]
 - [inbound.telus-gateway-production-config][telus-gateway-production-config]
 
