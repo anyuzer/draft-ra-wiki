@@ -43,9 +43,7 @@ If your team wants to use `.env` files, this is a fine practice on its own. Howe
 
 ## Who
 
-@tavogel
-@pdufault
-@ahmadnassri
+@delivery @development
 
 ## References
 
