@@ -68,7 +68,9 @@ _TBD_
 
 ### Testing Practice
 
-_TBD_
+- [Unit testing](testing/unit.md)
+- [End to End testing](testing/e2e.md)
+- [Security testing](testing/security.md)
 
 ### Delivery
 
