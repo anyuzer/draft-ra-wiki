@@ -20,7 +20,7 @@ The open-source community around Node also has a thriving suite of modules and l
 
 Our Node.js code must conform with our [code formatting standards](code-formatting.md). We have [starter kits](starter-kits.md) with cloneable examples of API and UI applications that have our standards baked in. We also have several private [npm libraries](npm.md).
 
-Currently, our stanedard is to use Node 6, and we will always strive to use the most recent Node [LTS](https://github.com/nodejs/LTS#lts-schedule1) (aka "long term support") version.
+Currently, our standard is to use Node 6, and we will always strive to use the most recent Node [LTS](https://github.com/nodejs/LTS#lts-schedule1) (aka "long term support") version. We are looking forward to Node 8th, this fall `:)`
 
 ## Who
 
