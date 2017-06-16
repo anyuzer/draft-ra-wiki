@@ -22,6 +22,8 @@ Our Node.js code must conform with our [code formatting standards](code-formatti
 
 Currently, our standard is to use Node 6, and we will always strive to use the most recent Node [LTS](https://github.com/nodejs/LTS#lts-schedule1) (aka "long term support") version. We are looking forward to Node 8th, this fall `:)`
 
+Check out the [Node compatability table](http://node.green/) to see which features are supported by the current version.
+
 ## Who
 
 Developers, developers, developers, developers.
@@ -29,3 +31,4 @@ Developers, developers, developers, developers.
 ## References
 
 - [Node.js LTS charts](https://github.com/nodejs/LTS#lts-schedule1)
+- [Node compatability table](http://node.green/)
