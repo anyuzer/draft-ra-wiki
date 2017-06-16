@@ -26,7 +26,7 @@ _TBD_
  
 #### Languages & Frameworks
 
-- [SCSS](development/css.md)
+- [CSS](development/css.md)
   - [SCSS](development/scss.md)
 
 - [JavaScript](development/javascript.md)
