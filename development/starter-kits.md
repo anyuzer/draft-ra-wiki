@@ -24,6 +24,8 @@ They have been developed in a collaborative partnership with the following teams
 
 No one team owns the starter kits. They are worked on collaboratively, with an open-source pull-request model. The standards are managed through the weekly [Architecture Forum](https://github.com/telusdigital/architecture-forum), on [#TechMondays](https://telusdigital.atlassian.net/wiki/display/techmondays/Schedule).
 
+The starter kit projects are designed to be [named anything](https://github.com/telusdigital/telus-isomorphic-starter-kit/blob/master/CLONING.md)), and be [deployed to any OpenShift project](https://github.com/telusdigital/telus-isomorphic-starter-kit/blob/master/openshift/README.md). We are working on [shippy](../delivery/shippy.md) to expedite the creation of projects in GitHub, using starter kit templates.
+
 ## Who
 
 Everyone!
