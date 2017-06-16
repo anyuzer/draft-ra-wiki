@@ -6,7 +6,7 @@ Previously when we would develop applications, the developers would be required 
 
 Over the last decade there has been a switch in mindset towards using virtual machines, both for local development and for production. This way, the differences with local environments and production environments are kept to a minimum. Also, creating new production environments is as simple as deploying a virtual server image to the cloud. However, traditional virtual machines work by emulating everything from the kernel to the application process. This makes them slow to build, slow to run, etc.
 
-"Containers" offer an alternative to traditional virtual machines. We get the same dev-prod parity and quick setup that we are looking for. Unlike virtual machines, they emulate only above the existing kernel. This makes them faster to build and run, while still offering process isolation. These artifacts rea easily versioned, predictable (removes human-error in configuration), and flexible.
+"Containers" offer an alternative to traditional virtual machines. We get the same dev-prod parity and quick setup that we are looking for. Unlike virtual machines, they emulate only above the existing kernel. This makes them faster to build and run, while still offering process isolation. These artifacts are easily versioned, predictable (removes human-error in configuration), and flexible.
 
 ## What
 
