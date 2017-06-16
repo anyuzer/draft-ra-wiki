@@ -17,6 +17,7 @@ _TBD_
 ### Development
 
 #### Process
+
 - [Project Template](process/project-template.md)
 - [Contribution Model](process/contribution-model.md)
 
@@ -28,6 +29,7 @@ _TBD_
   - [Releases](development/github-releases.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
 - [URI Templates & Structure](development/uri-structure.md)
+- [Application Configuration](development/application-configuration.md)
 
 #### Languages & Frameworks
 
@@ -76,6 +78,7 @@ _TBD_
 - [Unit testing](testing/unit.md)
 - [End to End testing](testing/e2e.md)
 - [Security testing](testing/security.md)
+- [Consumer driven contract testing](testing/consumer_driven_contracts.md)
 
 ### Delivery
 
