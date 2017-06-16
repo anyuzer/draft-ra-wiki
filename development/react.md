@@ -31,3 +31,4 @@ Everyone!
 - [TELUS Isomorphic Starter Kit](https://github.com/telusdigital/telus-isomorphic-starter-kit)
 - [React Developer Tools](https://github.com/facebook/react-devtools)
 - [React Native](https://facebook.github.io/react-native/)
+- [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar/languages-and-frameworks/react-js)
