@@ -16,6 +16,10 @@ _TBD_
 
 ### Development
 
+#### Process
+- [Project Template](process/project-template.md)
+- [Contribution Model](process/contribution-model.md)
+
 #### Concepts & Architecture
 
 - [Starter Kits](development/starter-kits.md)
@@ -23,7 +27,8 @@ _TBD_
   - [Changelog](development/github-releases.md)
   - [Releases](development/github-releases.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
- 
+- [URI Templates & Structure](development/uri-structure.md)
+
 #### Languages & Frameworks
 
 - [CSS](development/css.md)
