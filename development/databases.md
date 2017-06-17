@@ -2,7 +2,7 @@
 
 ## Why
 
-Occasionally we need to cache data, either for a limited amount of time, or for the duration of a user's session.
+Occasionally we need persistent, relational data, when we need longer-term storage than [caching](caching.md), e.g. for collecting orders, storing metrics or other shared data.
 
 ## What
 
@@ -21,7 +21,9 @@ To gain access to Amazon IAM, you can submit a pull request to the Data VPC IAM 
 
 ### Best practices
 
-TODO `¯\_(ツ)_/¯`
+- Any databases storing personal information must go through a security review
+- Avoid "database integration" by ensuring that you aren't sharing one database between multiple apps. Instead, front it with a shared microservice that provides a contract for communicating with the database.
+- TODO... more!
 
 ## Who
 
