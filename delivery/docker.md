@@ -10,9 +10,7 @@ Over the last decade there has been a switch in mindset towards using virtual ma
 
 ## What
 
-Docker is an open container platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud. It is a faster alternative to traditional virtual machines.
-
-Developers are in control of their application dependencies. Their application and its dependencies are bundled into a single Docker image artifact, along with their app code. The same artifact used locally is shipped to production: "works for me" = "works in prod". When a Docker image is deployed, it is as if an entirely new server has been built from scratch. The application is tested against its dependencies.
+Developers are now capable of managing their application dependencies. Their application and its dependencies are bundled into a single Docker image artifact. The same artifact used locally can be shipped to production: "works for me" = "works in prod". When a Docker image is deployed, it is as if an entirely new server has been built from scratch. The application is tested against its dependencies.
 
 Docker images are layered. The `Dockerfile` is a declarative list of commands (e.g. COPY, RUN, etc). At each and every step, it stores a snapshot of the image. Images can be built on top of other images. If we use a base image that gets updated, our application will get updated as well.
 
@@ -36,14 +34,13 @@ node:6-slim
 node:6-alpine
 ruby:2-alpine
 php:7-fpm-alpine
-php:5-fpm-alpine
 nginx:alpine
 redis:alpine
 ```
 
 Generally we greatly prefer the Alpine Linux containers, because they are typically the smallest, lightest and most secure. However, for Node apps, we also allow use of the Debian-slim images. The rationale for this is because many Node packages, e.g. node-sass, come with pre-compiled binaries for Debian, but not Alpine. Without these binaries, they are compiled during `npm install`, which requires `gcc`, `make`, etc. This takes a lot longer, and in the end you wind up with a much bigger image as well.
 
-Programming language distributions should track the stable "LTS" versions. For example, we will start using Node 8 [when it becomes "LTS"](https://github.com/nodejs/LTS#lts-schedule1), but should avoid using Node 7, unless explicitly necessary.
+Programming language distributions should track the stable "LTS" versions. For example, we will start using Node 8 [when it becomes "LTS"](https://github.com/nodejs/LTS#lts-schedule1). You should avoid using Node 7, unless explicitly necessary, as it will lack future support.
 
 ### Dockerfile
 
