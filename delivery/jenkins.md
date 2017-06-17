@@ -48,7 +48,7 @@ This step runs a functional integration test against the deployed environment. F
 
 #### Best practices
 
-- Do your work on OpenShift, as opposed to on Jenkins (e.g. do not write a custom Jenkins image that has Node.js installed on it!)
+- Do your work on OpenShift, as opposed to on Jenkins. Do not write a custom Jenkins image that has a tool installed on it; instead, Dockerize your tool and run it on OpenShift with `oc run`.
 - Use Jenkinsfile, as opposed to the older Job DSL and/or Build Pipeline plugin
 - Always wrap your pipeline in a try/catch block
 - Send slack notifications at key points in your pipeline (e.g. when failed, when waiting for input, when deployed to production)
