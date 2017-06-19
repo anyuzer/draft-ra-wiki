@@ -47,7 +47,7 @@ _TBD_
   - [React](development/react.md)
   - [Redux](development/redux.md)
 
-##### Tooling & Libraries
+#### Tooling & Libraries
 
 - [NPM](development/npm.md)
 - [Yarn](development/yarn.md)
