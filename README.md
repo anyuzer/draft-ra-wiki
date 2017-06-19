@@ -35,7 +35,6 @@ _TBD_
 
 - [CSS](development/css.md)
   - [SCSS](development/scss.md)
-
 - [JavaScript](development/javascript.md)
   - [Node.js](development/node.md)
   - [Isomorphic / Universal](development/isomorphic.md)
