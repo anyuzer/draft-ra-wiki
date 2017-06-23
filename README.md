@@ -10,7 +10,7 @@ For new and existing team members, a single place where all the technical knowle
 
 The following sections and placeholder articles are the suggested starting point, more to be added, and updated throughout the drafting period.
 
-### Design 
+### Design
 
 _TBD_
 
@@ -69,7 +69,7 @@ _TBD_
 
 - [Overview](api/README.md)
 - [RESTful Design](api/restful.md)
-- [Authentication Proxy](api/proxy.md)
+- [Authorization Proxy](api/authorization-proxy.md)
 - [Documentation Format](api/documentation.md)
 
 ### Testing Practice
@@ -108,7 +108,7 @@ A Github repository, with Markdown articles as content, (using the repository it
 The format should loosely follow the following template:
 
 ```
-# Subject Title 
+# Subject Title
 
 ## Why
 
@@ -128,6 +128,6 @@ The **TELUS Digital context** of how we're using the described subject, provide 
 
 ## References
 
-- [[link]] to internal references, and other wikis 
+- [[link]] to internal references, and other wikis
 - [[link]] to external references, documentation, product manuals and documentations
 ```
