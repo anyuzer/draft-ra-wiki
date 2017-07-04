@@ -33,5 +33,5 @@ Everyone!
 ## References
 
 - [Telus Isomorphic Starter Kit](https://github.com/telusdigital/telus-isomorphic-starter-kit)
-- [Telus SDF API Starter Kit](https://github.com/telusdigital/telus-sdf-api-starter-kit)
+- [API Starter Kit](https://github.com/telusdigital/api-starter-kit)
 - [Starter Kit Starter Kit](https://github.com/telusdigital/starter-kit-starter-kit)
