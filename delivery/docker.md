@@ -24,21 +24,18 @@ Containers should be **immutable & ephemeral**. This means it should be able to 
 
 ### DockerHub
 
-We use DockerHub (the canonical Docker image source), to pull our base images.
+We use DockerHub (the canonical Docker image source), to pull our base Alpine Linux images.
 
-Currently we only support official base images, which are maintained by the application publishers, or Linux distros themselves. You should avoid using random 3rd party images whenever possible, as they could include malicious/exploitable code.
+Currently we only support official base images, which are maintained by the application publishers. You should avoid using random 3rd party images whenever possible, as they could include malicious/exploitable code.
 
 Supported base images include:
 ```
-node:6-slim
 node:6-alpine
 ruby:2-alpine
 php:7-fpm-alpine
 nginx:alpine
 redis:alpine
 ```
-
-Generally we greatly prefer the Alpine Linux containers, because they are typically the smallest, lightest and most secure. However, for Node apps, we also allow use of the Debian-slim images. The rationale for this is because many Node packages, e.g. node-sass, come with pre-compiled binaries for Debian, but not Alpine. Without these binaries, they are compiled during `npm install`, which requires `gcc`, `make`, etc. This takes a lot longer, and in the end you wind up with a much bigger image as well.
 
 Programming language distributions should track the stable "LTS" versions. For example, we will start using Node 8 [when it becomes "LTS"](https://github.com/nodejs/LTS#lts-schedule1). You should avoid using Node 7, unless explicitly necessary, as it will lack future support.
 
