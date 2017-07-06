@@ -20,7 +20,7 @@ We have a few techniques in play for managing the storage of our secrets, before
 
 #### Good
 
-We currently use Ansible Vault, a secret management tool built into Ansible, which simply encrypts secrets into a file with a password. These files are then committed into source control. While this satisfies encryption at rest, it is not easily auditable, and there is no access control. This means if developers leave our organization, they will still be have access to the secrets that they have previously checked out, as long as they know the password. Also, if we have some shared credentials (e.g. GitHub/NPM read tokens) that get exposed, there is no way to quickly and easily rotate the keys... it would need to be done manually for every vault/application.
+We are phasing out the use Ansible Vault, a secret management tool built into Ansible, which simply encrypts secrets into a file with a password. These files are then committed into source control. While this satisfies encryption at rest, it is not easily auditable, and there is no access control. This means if developers leave our organization, they will still be have access to the secrets that they have previously checked out, as long as they know the password. Also, if we have some shared credentials (e.g. GitHub/NPM read tokens) that get exposed, there is no way to quickly and easily rotate the keys... it would need to be done manually for every vault/application.
 
 #### Better
 
