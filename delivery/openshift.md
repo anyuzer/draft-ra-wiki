@@ -10,6 +10,10 @@ RedHat's OpenShift platform is (as of v3.0) an extension of Google's [Kubernetes
 
 ## How
 
+### Video Tutorials
+
+Use your Telus google account to view [YouTube Delivery Playlist](https://www.youtube.com/playlist?list=PLJgHilVD2rhL8Xne1UwpCwiVIB9F1JDL6)
+
 ### Clusters
 
 We currently have two deployed clusters, [main](https://console.telusdigital.openshift.com/) and [sandbox](https://console.telusdigitalsandbox.openshift.com/). The main cluster is intended for our official delivery pipelines, for any application that is intended to go live to customers. The sandbox is designed for short-lived testing: feature branches, test apps, etc. Don't expect projects on the sandbox environment to stick around too long... we purge it occasionally `:)`
@@ -73,9 +77,7 @@ Projects are roughly equivalent to Kubernetes namespaces, however they enable ne
 
 #### DeploymentConfig
 
-A DeploymentConfig is _roughly_ analogous to a Kubernetes Deployment (in fact, it predates it, and RedHat pushed Google to make Deployments a core feature). However, under the hood the DeploymentConfig leverages the older Kubernetes ReplicationController paradigm, in order to mimic the Deployment behaviour. For most purposes, they are one and the same... however DeploymentConfigs do not get the same quality of Event monitoring, and has other strange quirks.
-
-Many features in OpenShift are, in fact, backports: Mimicking new functionality in old versions of Docker/Kubernetes under the hood. Something, something "enterprise"... `¯\_(ツ)_/¯`
+A DeploymentConfig is _roughly_ analogous to a Kubernetes Deployment (in fact, it predates it, and RedHat pushed Google to make Deployments a core feature). However, under the hood the DeploymentConfig leverages the older Kubernetes ReplicationController paradigm, in order to mimic the Deployment behaviour. For most purposes, they are one and the same... however DeploymentConfigs do not get the same quality of Event monitoring, and has other strange quirks. Many features in OpenShift are, in fact, backports: Mimicking new functionality in old versions of Docker/Kubernetes under the hood.
 
 ### Cluster upgrade process
 
@@ -108,37 +110,11 @@ TDIM will verify the stability of applications within OpenShift and engage teams
 
 Red Hat will provide notification of a patch to our main cluster.  This date must be communicated to TDIM, TDIM Owner (Shane Boles), Release Management (Krystal Jackson) and the Delivery Platform team.  Emails below should all be notified when a patch to our main (telusdigital) cluster is going to happen to ensure the upgrade window is suitable.  If it is not the window can be changed by emailing Red Hat or opening a ticket.
 
-Ensure the following email addresses are notified of an OpenShift change.
-
-#### TELUS digital
-
-- TDIM - tdim@telus.com 
-- TDIM Owner - shane.boles@telus.com
-- Release Management - krystal.jackson2@telus.com
-- Delivery Platform Team - dldigitaldevops@telus.com
-
-#### BT
-
-Release Management (krystal.jackson2@telus.com) will prime communications with BT to ensure they are aware of planned upgrades.  For emergency upgrades we may have a gap.
-
 ### Creating Tickets
 
 Team members will require access to the Red Hat Customer Portal, once access is gained team members may create tickets as needed.  Ticket response time SLA’s will follow per windows located in the SLA link below (note: our support level is Premium).
 
 If additional team members are interested in updates in this ticket you can add them in the section `Send Email Notifications to:` section.
-
-### Contacts
-
-#### Red Hat
-
-- OpenShift Provisioning <openshift-provisioning@redhat.com>
-- Grant Berry - Account Executive - <gberry@redhat.com>
-
-#### TELUS
-
-- TDIM - tdim@telus.com 
-- Release Management - krystal.jackson2@telus.com
-- Delivery Platform Team - dldigitaldevops@telus.com
 
 ### Openshift Status Dashboard
 
