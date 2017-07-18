@@ -2,40 +2,23 @@
 
 ## Why
 
-CSS is an interesting language for having the perception of being easy to learn, yet difficult to scale and modularize. Front end teams often re-use the same CSS and want to be able to revisit a codebase months later to easily make changes.
+Though every Telus web property uses CSS, developers rarely write CSS directly. CSS is often either included as part of [TDS components](http://tds.telus.com/), transpiled from SCSS, or embedded in [JS](./javascript.md) components.
 
 ## What
 
-CSS is Cascading Style Sheets. At a glance:
-
-- Objects in the DOM are selected and styled using CSS selectors with corresponding properties and values.
-
-Example:
-```css
-.card {
-  max-width: 200px;
-  border: 1px solid #000;
-  background-color: #fff;
-}
-```
-
-Recommended resources:
-- CSS reference: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
-- Browser compatibility tables: [caniuse.com](http://caniuse.com/)
+Every front end site uses CSS in some shape or form at Telus.
 
 ## How
 
-First and foremost, using a preprocessor such as SCSS (see [guideline for SCSS](./scss.md)) is strongly encouraged since it offers many benefits such as variables, mixins, nested selectors, and modular file importing.
+CSS can be written and maintained in many different ways. Developers at Telus are discouraged from writing CSS directly, and to instead go with the following options in order of preference:
 
-:construction: _Work in progress_
+1. Consume [React](./react.md) components from [TDS](http://tds.telus.com/)
+1. Write [custom React components](./react.md#how)
+1. Use SCSS
 
-### Structural Paradigms
-
-Though there are many useful structural paradigms such as BEM to organise your CSS selectors, we recommend [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
-
-### Optimisations
-
-Keep the following in mind when developing CSS:
-
-- The browser builds the CSSOM as CSS files are parsed (see [Optimising the front end for the browser](https://dev.to/sanjsanj/optimising-the-front-end-for-thebrowser)), and it is important to minimise those steps to avoid rebuilding the CSSOM. One way to get around that is to **minify and concatenate your CSS**.
-- Animations and transitions are useful, but they are not always performant. Avoid transitioning paint-heavy properties. Here is a convenient list: [CSS Triggers](https://csstriggers.com/).
+## References:
+- [Mozilla Developer Network: CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [caniuse.com (Browser compatibility tables)](http://caniuse.com/) 
+- [ITCSS](http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
+- [Optimising the front end for the browser](https://dev.to/sanjsanj/optimising-the-front-end-for-thebrowser)
+- [CSS Triggers](https://csstriggers.com/)

@@ -14,10 +14,6 @@ The following sections and placeholder articles are the suggested starting point
 
 _TBD_
 
-### Content
-
-_TBD_
-
 ### Development
 
 #### Process
