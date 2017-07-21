@@ -44,7 +44,7 @@ This deploys your container to staging (automatically) and production (manually)
 
 ##### End to End staging/production
 
-This step runs a functional integration test against the deployed environment. For user interfaces, it uses Nightwatch and Selenium against your deployed application. For APIs, we can write a simple integration test with CURL/node-fetch or use customer-driven contract tests (an integration test, against your API written by a downstream client).
+This step runs a functional integration test against the deployed environment. For user interfaces, it uses Nightwatch and Chrome against your deployed application. For APIs, we can write a simple integration test with CURL/node-fetch or use customer-driven contract tests (an integration test, against your API written by a downstream client).
 
 #### Best practices
 
