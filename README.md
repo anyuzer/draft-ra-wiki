@@ -10,47 +10,58 @@ For new and existing team members, a single place where all the technical knowle
 
 The following sections and placeholder articles are the suggested starting point, more to be added, and updated throughout the drafting period.
 
-### Design 
+### Design
 
 _TBD_
 
 ### Development
 
 #### Process
+
 - [Project Template](process/project-template.md)
 - [Contribution Model](process/contribution-model.md)
 
 #### Concepts & Architecture
 
+- [Starter Kits](development/starter-kits.md)
 - [Versioning](development/versioning.md)
   - [Changelog](development/github-releases.md)
   - [Releases](development/github-releases.md)
-- [Isomorphic Design](development/isomorphic.md)
 - [BFF](development/bff.md) _(Backend-for-frontend)_
+- [URI Templates & Structure](development/uri-structure.md)
+- [Application Configuration](development/application-configuration.md)
 
 #### Languages & Frameworks
 
-- [SCSS](development/css.md)
+- [CSS](development/css.md)
   - [SCSS](development/scss.md)
-
 - [JavaScript](development/javascript.md)
+  - [Node.js](development/node.md)
+  - [Isomorphic / Universal](development/isomorphic.md)
   - [Transpiling](development/transpiling.md)
     - [ES6 / ES2015](development/transpiling/es2015.md)
     - [ES2016](development/transpiling/es2016.md)
     - [ES2017](development/transpiling/es2016.md)
+  - [Express](development/express.md)
   - [React](development/react.md)
-  - [Node.js](development/node.md)
+  - [Redux](development/redux.md)
 
-##### Tooling & Libraries
+#### Tooling & Libraries
 
 - [NPM](development/npm.md)
 - [Yarn](development/yarn.md)
 - [Webpack](development/webpack.md)
 - [Enzyme](development/enzyme.md)
 - [Jest](development/jest.md)
+- [NewRelic](development/newrelic.md)
+- [Logging](development/logging.md)
+- [Caching](development/caching.md)
+- [Databases](development/databases.md)
 
 #### Syntax & Style
 
+- [Code formatting](development/code-formatting.md)
+- [Gitignore](development/gitignore.md)
 - [ESLint](development/eslint.md)
 - [stylelint](development/stylelint.md)
 
@@ -58,16 +69,27 @@ _TBD_
 
 - [Overview](api/README.md)
 - [RESTful Design](api/restful.md)
-- [Authentication Proxy](api/proxy.md)
+- [Authorization Proxy](api/authorization-proxy.md)
 - [Documentation Format](api/documentation.md)
 
 ### Testing Practice
 
-_TBD_
+- [Unit testing](testing/unit.md)
+- [End to End testing](testing/e2e.md)
+- [Security testing](testing/security.md)
+- [Consumer driven contract testing](testing/consumer_driven_contracts.md)
 
 ### Delivery
 
-_TBD_
+- [Continuous Integration](delivery/continuous-integration.md)
+- [Continuous Delivery](delivery/continuous-delivery.md)
+- [Docker](delivery/docker.md)
+- [Kubernetes](delivery/kubernetes.md)
+- [OpenShift](delivery/openshift.md)
+- [Jenkins](delivery/jenkins.md)
+- [Secrets](delivery/secrets.md)
+- [Inbound Proxies](delivery/inbound-proxies.md)
+- [Shippy](delivery/shippy.md)
 
 ### Analytics
 
@@ -86,7 +108,7 @@ A Github repository, with Markdown articles as content, (using the repository it
 The format should loosely follow the following template:
 
 ```
-# Subject Title 
+# Subject Title
 
 ## Why
 
@@ -106,6 +128,6 @@ The **TELUS Digital context** of how we're using the described subject, provide 
 
 ## References
 
-- [[link]] to internal references, and other wikis 
+- [[link]] to internal references, and other wikis
 - [[link]] to external references, documentation, product manuals and documentations
 ```
