@@ -22,6 +22,20 @@ Each of the above provides a key insight into identifying how to improve your ap
 
 ## How
 
+#### Baselines
+- Server Side Rendering: < 100ms
+- DOM Content Loaded < 1s
+- Loaded < 2s
+- Finished < 2s
+- Page Speed Insights: 80+
+
+#### Server Side Rendering Baseline
+- < 100ms
+- 
+
+#### Chrome Dev Tools Baseline
+- Dom Content Loaded
+
 The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
 
 ## Who
