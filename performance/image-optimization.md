@@ -26,10 +26,7 @@ Finally (and this might be irrelevant for Contentful) is to ensure that we are o
 ## References
 
 
-
--
-- [[link]] to external references, documentation, product manuals and documentations
-
+- [Google PageSpeed Insights reference on Images](https://developers.google.com/speed/docs/insights/OptimizeImages)
 
 
 
