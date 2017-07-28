@@ -14,9 +14,7 @@ React Server Side Rendering is fast. Large complex applications, when optimized 
 
 **IMPORTANT: IF YOUR APPLICATION IS RESPONDING SLOWLY IT IS PROBABLY NOT REACT**
 
-To aid in this, in the isomorphic-starter-kit there is an automated warning that will get logged if your application is taking longer than 100ms to respond to.
-
-This means the solution is not utilizing another tool or library, or attempting to add caching, or streaming to React to solve signficant slowness you may 
+This means the solution is not utilizing another tool or library, or attempting to add caching, or streaming to React to solve signficant slowness you may be experience, but instead looking at how your application is executing and where it may be blocking the Server Side Render.
 
 ## How
 
