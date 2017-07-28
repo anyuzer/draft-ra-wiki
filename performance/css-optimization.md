@@ -2,21 +2,18 @@
 
 ## Why
 
-provide background information, problem description, challanges and/or goals
+Telus websites should have excellent search engine optimization. On search engines like Google, performance plays a big role in gaining a high SEO rank. Telus developers are strongly encouraged to maximise performance in order to make high gains in SEO.
 
 ## What
 
-The subject details, describe the tool / technology in detail, prefer linking to external sources if a 3rd party
+Unused CSS is a detriment to SEO. Some basic optimizations and insight are covered and referenced in the [CSS reference architecture](../deveopment/css.md).
 
 ## How
 
-The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
-
-## Who
-
-`@` mention **teams** who are stakeholders or owners of described subject (see Github Members Groups)
+In your applications, only include the CSS or SCSS you need from TDS. This can be further maximised by adopting styled component methodologies.
 
 ## References
 
-- [[link]] to internal references, and other wikis
-- [[link]] to external references, documentation, product manuals and documentations
+- [Purify CSS Plugin for Webpack](https://github.com/webpack-contrib/purifycss-webpack)
+- [Styled Components](https://github.com/styled-components/styled-components)
+- [CSS Modules](https://github.com/css-modules/css-modules)
