@@ -2,9 +2,9 @@
 
 ## Why
 
-Server Side Rendering is a key concept in the Telus Digital Reference Architecture, being one of the key reasons that React was initially adopted as a technology standard.
+Server Side Rendering is a key concept in the TELUS Digital Reference Architecture, being one of the key reasons that React was initially adopted as a technology standard.
 
-In many cases though, when a dependancy tree becomes deep enough, it may not be obvious to developers when they need to triage their application.
+In many cases though, when a dependency tree becomes deep enough, it may not be obvious to developers when they need to triage their application.
 
 The purpose of this document is to provide some guidelines on when/how to triage Server Side Rendering.
 
@@ -33,6 +33,7 @@ app.use((req, res, next) => {
 ```
 
 To triage poor SSR do the following:
+
 - Log the total time to response (ie. implement the above)
 - Remove all of your API calls
 - Compare the difference

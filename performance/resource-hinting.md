@@ -2,7 +2,7 @@
 
 ## Why
 
-We want Telus websites to load as fast as possible while not being wasteful of end users' time and hardware capabilities. Users who have either powerful or weak hardware will both benefit from resource hints as they provide a means to fetch assets asynchronously and cache them quickly, and will facilitate development teams who are strongly encouraged to meet our [performance baseline](./performance-baseline.md).
+We want TELUS websites to load as fast as possible while not being wasteful of end users' time and hardware capabilities. Users who have either powerful or weak hardware will both benefit from resource hints as they provide a means to fetch assets asynchronously and cache them quickly, and will facilitate development teams who are strongly encouraged to meet our [performance baseline](./performance-baseline.md).
 
 ## What
 
@@ -17,11 +17,10 @@ Resource hint example:
 ```
 The starter kit has some default resource hints for expected content such as bundled JS and vendor files, the global header, and some anticipated CDN assets. There is slightly different usage depending on the site context. Static sites should have resource hints on every page, whereas single-page applications only need them in one location: the rendered `<head>`.
 
-Once set up, resource hints will download assets or perform server handshakes dpeending on the `rel` attribute, which dictates the hint's behaviour.
+Once set up, resource hints will download assets or perform server handshakes depending on the `rel` attribute, which dictates the hint's behaviour.
 
 ## How
 
-The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
 When you use the isomorphic starter kit for single-page React applications, you can pass an array of resource hints (see server.js example). **Order matters**, it is recommended to organise your hints in this order, based on their `rel` attribute and intention:
 
 1. `dns-prefetch` - if you fully expect certain external items to download near the middle or end of `<body>` such as analytics, Google fonts, or CDN assets, you can use this to perform the DNS lookup ahead of time. It is cheap, and encouraged.

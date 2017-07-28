@@ -2,7 +2,7 @@
 
 ## Why
 
-Telus websites should have excellent search engine optimization. On search engines like Google, performance plays a big role in gaining a high SEO rank. Telus developers are strongly encouraged to maximise performance in order to make high gains in SEO.
+TELUS websites should have excellent search engine optimization. On search engines like Google, performance plays a big role in gaining a high SEO rank. TELUS developers are strongly encouraged to maximise performance in order to make high gains in SEO.
 
 ## What
 

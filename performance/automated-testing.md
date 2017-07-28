@@ -6,14 +6,8 @@ Automated Performance Testing based on [PageSpeed Insights](https://developers.g
 
 ## What
 
-Configure and run tests automatically in your pipeline (see [here](https://github.com/telusdigital/telus-isomorphic-starter-kit/tree/master/load-test) for more details).
+Configure and run tests automatically in your pipeline 
 
-## Next steps
+## How
 
-- Our own WebPageTest server
-- WebPageTest running in the pipeline with set thresholds for TTFB, load times, etc.
-
-## References
-
-- [Setting up a private instance of a WebPageTest server](https://github.com/marcelduran/webpagetest-api/wiki/Test-Specs)
-- [WebPageTest - Continuous Integration](https://github.com/marcelduran/webpagetest-api/wiki/Test-Specs) 
+Automated Performance Testing is part of the [isomorphic starter kit](https://github.com/telusdigital/telus-isomorphic-starter-kit/tree/master/load-test). For more details on setup, see [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).

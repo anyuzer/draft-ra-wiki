@@ -15,21 +15,7 @@ Currently we don't have any opinions and tools baked into our reference architec
 Some recommendations:  
 
 - Try not to make calls that will block Server Side Render
-
 - Maintain clear visibility on the number of calls that are made by the server and how long they take.
-
 - If your API call is slow, escalate to your friendly API team! (APIs should not be slow)
-
 - Cache reasonably static data on server with safe expiry! (ie. 5 minutes)
-
 - Use internal network routing on the server side.
-
-
-## Who
-
-`@` mention **teams** who are stakeholders or owners of described subject (see Github Members Groups)
-
-## References
-
-- [[link]] to internal references, and other wikis
-- [[link]] to external references, documentation, product manuals and documentations

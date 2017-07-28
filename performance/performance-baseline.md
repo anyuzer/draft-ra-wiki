@@ -3,6 +3,7 @@
 ## Why
 
 Performance is critical to the success of modern web applications, and has been shown to impact many metrics such as:
+
 - User Experience
 - User Engagement
 - Conversion Rate
@@ -14,6 +15,7 @@ To support teams in their success we have established a baseline for Reference A
 ## What
 
 To diagnose Performance in the Reference Architecture we look in 3 separate places in order to evaluate key problem areas:
+
 - Server.js response time (in ms)
 - Chrome Developer tools:
     - Dom Content Loaded
@@ -21,28 +23,28 @@ To diagnose Performance in the Reference Architecture we look in 3 separate plac
     - Finished
 - Google Page Speed Insights
 
-Each of the above tools provides a key insight into identifying how to improve your applications performance. Long term performance is measured using New Relic.
-
+Each of the above tools provides a key insight into identifying how to improve your applications performance. Long-term performance is measured using New Relic.
 
 ## How
 
-#### Baselines
+### Baselines
+
 - Server Side Rendering: < 100ms
 - DOM Content Loaded < 1s
 - Loaded < 2s
 - Finished < 2s
 - Page Speed Insights: 80+
 
-#### Server Side Rendering
+### Server Side Rendering
 To assist in understanding and triaging SSR, the following guides are here to help.
 - [API Optimization](./api-optimization.md)
 - [Server Side Rendering](./server-side-rendering.md)
 
-#### Browser Performance Metrics
+### Browser Performance Metrics
 To assist in understanding and triaging DOM Content Loaded, Loaded and Finished, the following guides are here to help.
 - [Resource Hinting](./resource-hinting.md)
 
-#### Page Speed Metrics
+### Page Speed Metrics
 To assist in understanding and triaging Page Speed Insights, the following guides are here to help.
 - [Page Speed Insights](./page-speed-insights.md)
 - [CSS Optimization](./css-optimization.md)
