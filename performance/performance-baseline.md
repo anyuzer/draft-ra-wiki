@@ -40,7 +40,6 @@ To assist in understanding and triaging SSR, the following guides are here to he
 
 #### Browser Performance Metrics
 To assist in understanding and triaging DOM Content Loaded, Loaded and Finished, the following guides are here to help.
-- [Network Latency](./network-latency.md)
 - [Resource Hinting](./resource-hinting.md)
 
 #### Page Speed Metrics
