@@ -1,22 +1,19 @@
-# Automated Testing
+# Automated Performance Testing
 
 ## Why
 
-provide background information, problem description, challanges and/or goals
+Automated Performance Testing based on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) has been added into the pipeline, so that application contributors/owners can keep an eye on how the application performs and block deployments that drop scores under their thresholds.
 
 ## What
 
-The subject details, describe the tool / technology in detail, prefer linking to external sources if a 3rd party
+Configure and run tests automatically in your pipeline (see [here](https://github.com/telusdigital/telus-isomorphic-starter-kit/tree/master/load-test) for more details).
 
-## How
+## Next steps
 
-The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
-
-## Who
-
-`@` mention **teams** who are stakeholders or owners of described subject (see Github Members Groups)
+- Our own WebPageTest server
+- WebPageTest running in the pipeline with set thresholds for TTFB, load times, etc.
 
 ## References
 
-- [[link]] to internal references, and other wikis
-- [[link]] to external references, documentation, product manuals and documentations
+- [Setting up a private instance of a WebPageTest server](https://github.com/marcelduran/webpagetest-api/wiki/Test-Specs)
+- [WebPageTest - Continuous Integration](https://github.com/marcelduran/webpagetest-api/wiki/Test-Specs) 
