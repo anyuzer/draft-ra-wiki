@@ -2,11 +2,15 @@
 
 ## Why
 
-Performance is critical to the success of modern web applications. User engagement has been proven to be highly impacted by initial time to interaction. Additionally in an increasingly mobile world where users may be on slower networks, performance optimization is key to delivering customer value.
+Performance is critical to the success of modern web applications, and has been shown to impact many metrics such as:
+- User Experience
+- User Engagement
+- Conversion Rate
 
-With the increasing complexity of our applications though, as well as a multitude of externally impacting factors (ie. analytics, injected global elements, etc), it can be very difficult for teams to know when there are optimization opportunities or when their application has met a sufficient level of performance to be used by customers.
+As our applications become more complex, it can be difficult for teams to know when and how they need to be responsible for performance.
 
-To support teams in their success we require a baseline for performance that teams can measure their projects against to understand what they should be able to achieve using the Reference Architecture.
+To support teams in their success we have established a baseline for Reference Architecture applications to measure themselves against, during development and as part of production readiness.
+
 ## What
 
 To diagnose Performance in the Reference Architecture we look in 3 separate places in order to evaluate key problem areas:
@@ -17,7 +21,7 @@ To diagnose Performance in the Reference Architecture we look in 3 separate plac
     - Finished
 - Google Page Speed Insights
 
-Each of the above provides a key insight into identifying how to improve your applications performance. Long term performance is measured using New Relic.
+Each of the above tools provides a key insight into identifying how to improve your applications performance. Long term performance is measured using New Relic.
 
 
 ## How
@@ -29,20 +33,26 @@ Each of the above provides a key insight into identifying how to improve your ap
 - Finished < 2s
 - Page Speed Insights: 80+
 
-#### Server Side Rendering Baseline
-- < 100ms
-- 
+#### Server Side Rendering
+To assist in understanding and triaging SSR, the following guides are here to help.
+- [API Optimization](./api-optimization.md)
+- [Server Side Rendering](./server-side-rendering.md)
 
-#### Chrome Dev Tools Baseline
-- Dom Content Loaded
+#### Browser Performance Metrics
+To assist in understanding and triaging DOM Content Loaded, Loaded and Finished, the following guides are here to help.
+- [Network Latency](./network-latency.md)
+- [Resource Hinting](./resource-hinting.md)
+- [Render Blocking Resources](./render-blocking-resources.md)
 
-The **TELUS Digital context** of how we're using the described subject, provide **deep details** here, including usage manual, API documentation, operational guidelines, etc ...
-
-## Who
-
-`@` mention **teams** who are stakeholders or owners of described subject (see Github Members Groups)
+#### Page Speed Metrics
+To assist in understanding and triaging Page Speed Insights, the following guides are here to help.
+- [Page Speed Insights](./page-speed-insights.md)
+- [CSS Optimization](./css-optimization.md)
+- [Image Optimization](./image-optimization.md)
 
 ## References
-
-- [[link]] to internal references, and other wikis
-- [[link]] to external references, documentation, product manuals and documentations
+- [[Page Speed Rules](https://developers.google.com/speed/docs/insights/rules)]
+- [[Chome Dev Tools Performanc Analysis](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)]
+- [[Web Performance Tooling](https://www.youtube.com/watch?v=iMqi55rcR00&feature=youtu.be)]
+- [[Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860)]
+- [[Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)]
