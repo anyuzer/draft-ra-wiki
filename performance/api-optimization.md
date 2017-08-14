@@ -8,6 +8,19 @@ A lot of the time, our applications will need to make API calls when we need dat
 
 We now have Load Testing and Performance testing as part of our API Pipelines. This should be relied upon to deliver expected SLAs to consumers. As a consumer, we recommend you log your API response times and build in an automatic warning log that occurs when an API calls exceeds expected SLA.
 
+The following code can be modified to implemented to measure the response time of an outgoing request:
+```js
+const sla = 0.05
+let t = (new Date()).getTime()
+return someRequestPromise.then((response)=>{
+  t = (new Date()).getTime() - t;
+  if(t > sla){
+    console.log(`${t}ms - ${apiEndpoint}`)
+  }
+  return response
+})
+```
+
 ## How
 
 Some recommendations:  
