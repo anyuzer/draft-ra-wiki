@@ -29,7 +29,7 @@ app.use((req, res, next) => {
     console.log(`${(new Date()).getTime() - t}ms ${req.url}`)
   });
   next()
-});
+})
 ```
 
 To triage poor SSR do the following:
