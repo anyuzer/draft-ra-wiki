@@ -1,8 +1,8 @@
-# Automated Performance Testing
+# Automated Performance Testing (Front-End)
 
 ## Why
 
-Automated Performance Testing based on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) has been added into the pipeline, so that application contributors/owners can keep an eye on how the application performs and block deployments that drop scores under their thresholds.
+Automated Front-End Performance Testing based on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) has been added into the pipeline, so that application contributors/owners can keep an eye on how the application performs and block deployments that drop scores under their thresholds.
 
 ## What
 
