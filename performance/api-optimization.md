@@ -6,9 +6,7 @@ A lot of the time, our applications will need to make API calls when we need dat
 
 ## What
 
-Currently we don't have any opinions and tools baked into our reference architecture.
-
-- Log how long your API calls are taking to provide visibility in a consistent format (TBD)
+We now have Load Testing and Performance testing as part of our API Pipelines. This should be relied upon to deliver expected SLAs to consumers. As a consumer, we recommend you log your API response times and build in an automatic warning log that occurs when an API calls exceeds expected SLA.
 
 ## How
 
