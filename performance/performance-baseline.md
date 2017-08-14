@@ -1,4 +1,4 @@
-# Performance Baseline (for Isomorphic SPAs)
+# Performance Baseline (for Isomorphic Single Page Apps)
 
 ## Why
 
