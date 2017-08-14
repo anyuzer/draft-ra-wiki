@@ -1,4 +1,4 @@
-# Performance Baseline
+# Performance Baseline (for Isomorphic SPAs)
 
 ## Why
 
