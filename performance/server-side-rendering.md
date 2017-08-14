@@ -24,11 +24,11 @@ If you are using the Isomorphic Starter Kit, a warning comes prebuilt in and wil
 ```js
 // Simple Middleware for server.js to measure server side rendering time (ms)
 app.use((req, res, next) => {
-  let t = (new Date()).getTime();
+  let t = (new Date()).getTime()
   res.on('finish', ()=>{
-    console.log(`${(new Date()).getTime() - t}ms ${req.url}`);
+    console.log(`${(new Date()).getTime() - t}ms ${req.url}`)
   });
-  next();
+  next()
 });
 ```
 
